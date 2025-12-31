@@ -8,7 +8,7 @@ terraform {
 }
 
 provider "okta" {
-  org_name  = "integrator-8716117"
+  org_name  = var.org_name
   base_url  = "okta.com"
   api_token = var.okta_token
 }
